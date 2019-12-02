@@ -1,0 +1,159 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1C2738;
+}
+#portfolio {
+    height: 1500px;
+}
+#about, #contact {
+    height: 600px;
+}
+h3 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url(../img/white-desk-2.png);
+    background-size: 100%;
+}
+nav {
+    padding: 40px 50px 0 0;
+}
+#menu {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #8c8c8c;
+    padding-left: 50px;
+}      
+a:hover {
+        color: white;
+      }
+
+header h1 {
+    clear: both;
+    font-family: 'Warnes', cursive;
+    font-size: 125px;
+    line-height: 140px;
+    color: #066F78;
+    margin-left: 25px;
+}
+header h2 {
+    clear: both;
+    font-size: 50px;
+    line-height: 75px;
+    color: #1C2738;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+/***** PORTFOLIO *****/
+#portfolio .full-width {
+    padding: 40px 0;
+}
+#portfolio img {
+    margin: 40px 50px 25px 50px;
+    border: 2px solid #066F78;
+}
+#portfolio #wrapper {
+    height: 385px;
+    padding-right:50px; 
+}
+#portfolio h4 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 40px 0 0 50px;
+}
+#portfolio p {
+    font-size: 24px;
+    padding: 20px 0 0 50px;
+}
+
+/***** ABOUT *****/
+#about {
+    background-color: #327F8E;
+}
+#about .full-width {
+    padding: 40px 0;
+}
+#about h3 {
+    color: white;
+}
+#about p {
+    font-size: 21px;
+    color: white;
+    line-height: 40px;
+    padding: 10px 30px 0 50px;
+}
+
+/***** CONTACT *****/
+#contact {
+    background-color: #c6e5eb;
+}
+#contact .full-width {
+    padding: 40px 0;
+}
+#contact h4 {
+    font-size: 26px;
+    line-height: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+#contact .icon {
+    padding-left: 60px;
+    padding-right: 15px;
+}
+#contact a {
+    text-decoration: none;
+    color: #066F78;
+    font-weight: bold;
+    font-size: 23px;
+}
+#contact img#headshot {
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin: 30px 0 0 85px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-left: 34px;
+}
+#copyright {
+    clear: both;
+    text-align: center;
+    font-size:20px;
+    padding-top: 90px;
+    margin-bottom: 0;
+}
